@@ -1,0 +1,37 @@
+{
+  "id": "3507681",
+  "name": "品优购",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "21243077",
+      "name": "时钟",
+      "font_class": "shizhong",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "5387571",
+      "name": "箭头_列表向右",
+      "font_class": "jiantou_liebiaoxiangyou",
+      "unicode": "eb03",
+      "unicode_decimal": 60163
+    },
+    {
+      "icon_id": "1306",
+      "name": "购物车空",
+      "font_class": "gouwuchekong",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5387576",
+      "name": "箭头_列表展开",
+      "font_class": "jiantou_liebiaozhankai",
+      "unicode": "eb04",
+      "unicode_decimal": 60164
+    }
+  ]
+}

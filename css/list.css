@@ -1,0 +1,167 @@
+.logo .sk img {
+    position: absolute;
+    top: 13px;
+    right: -86px;
+}
+
+.logo .sk::before {
+    position: absolute;
+    left: 185px;
+    top: 13px;
+    content: "";
+    width: 2px;
+    height: 28px;
+    background-color: #c81523;
+}
+
+.nav .dropdown {
+    width: 392px;
+    background-color: #fff;
+}
+
+.nav .dropdown ul {
+    float: left;
+}
+
+.nav .dropdown ul li {
+    float: left;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    padding: 0 30px
+}
+
+.nav .navitems {
+    margin-left: 0;
+}
+
+.nav .navitems ul li {
+    font-size: 14px;
+}
+
+.nav .navitems ul li:last-child::after {
+    content: "\eb04";
+    font-family: "iconfont";
+}
+
+/* 列表页主体内容开始了 */
+.sk_bd {
+    margin-top: 24px;
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 462px;
+    margin-right: 13px;
+    /* 如果不加这个透明边框 直接hover的话 由于是css3的content—div的缘故 鼠标经过ul的时候由于多了边框宽度 */
+    /* 会自动压缩里面的内容 */
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_container .sk_bd ul li .goods {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sk_container .sk_bd ul li img {
+    height: 100%;
+}
+
+.sk_container .sk_bd ul li .info {
+    padding: 0 12px;
+}
+
+.sk_container .sk_bd ul li p {
+    margin-top: 27px;
+    font-size: 14px;
+    color: #666;
+}
+
+.sk_bd ul li .price {
+    padding-top: 8px;
+}
+
+.sk_bd ul li .price i {
+    font-size: 14px;
+}
+
+.sk_bd ul li .price .cur {
+    display: inline-block;
+    color: #c81523;
+    font-size: 22px;
+}
+
+.sk_bd ul li .price .ori {
+    display: inline-block;
+    padding-left: 12px;
+    font-size: 13px;
+    color: #bfbfbf;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li .sell {
+    margin-top: 6px;
+}
+
+.sk_bd ul li .sell .sold {
+    display: inline-block;
+    font-size: 13px;
+    color: #666;
+}
+
+.sk_bd ul li .sell .bar {
+    display: inline-block;
+    width: 133px;
+    height: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #b1191a;
+    border-radius: 7px;
+}
+
+.sk_bd ul li .sell .bar_in {
+    width: 50%;
+    height: 100%;
+    background-color: #c81523;
+    transition: all .5s;
+}
+
+.sk_bd ul li .sell .bar:hover .bar_in {
+    width: 87%;
+}
+
+.sk_bd ul li .sell .sales_volume:hover {
+    width: 50%;
+}
+
+.sk_bd ul li .sell .left {
+    display: inline-block;
+    font-size: 14px;
+}
+
+.sk_bd ul li .btn {
+    height: 45px;
+    line-height: 45px;
+    width: 288px;
+    margin-top: 10px;
+    background-color: #b1191a;
+    text-align: center;
+
+}
+
+.sk_bd ul li .btn button {
+    font-size: 20px;
+    color: #fff;
+    background-color: #b1191a;
+}
+
+/* 列表页主体内容结束了 */

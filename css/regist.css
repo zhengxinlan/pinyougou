@@ -1,0 +1,155 @@
+.w {
+    width: 1200px;
+    height: 2000px;
+    margin: 17px auto;
+}
+
+.logo {
+    height: 68px;
+    border-bottom: 2px solid #c61a2a;
+}
+
+.reg_form {
+    height: 523px;
+    border: 1px solid #f4f4f4;
+}
+
+.reg_form_hd {
+    height: 40px;
+    line-height: 40px;
+    padding: 0 13px;
+    border-bottom: 1px solid #f4f4f4;
+    background-color: #ececec;
+}
+
+.reg_form_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.reg_form_hd .login {
+    float: right;
+    font-size: 14px;
+}
+
+.reg_form_hd .login i {
+    color: #c61a2a;
+}
+
+.reg_form_bd {
+    text-align: center;
+    padding-top: 54px;
+}
+
+.reg_form_bd ul li {
+    margin-bottom: 22px;
+}
+
+.reg_form_bd ul li label {
+    font-size: 14px;
+    width: 90px;
+    display: inline-block;
+    /* 让label盒子里面的内容靠右对齐 */
+    text-align: right;
+}
+
+.reg_form_bd ul li span {
+    display: inline-block;
+    width: 220px;
+    text-align: left;
+}
+
+.reg_form_bd ul li input {
+    width: 242px;
+    height: 38px;
+    margin: 0 10px;
+    border: 1px solid #dddddd;
+
+}
+
+.reg_form_bd ul li .error,
+.success {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error.png) no-repeat center;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.reg_form_bd ul li .success {
+    background: url(../images/success.png) no-repeat center;
+}
+
+.safe {
+    margin-left: -50px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    display: inline-block;
+    width: 34px;
+    height: 13px;
+    line-height: 13px;
+    color: #fff;
+}
+
+.safe em:nth-child(1) {
+    background-color: red;
+}
+
+.safe em:nth-child(2) {
+    background-color: green;
+}
+
+.safe em:nth-child(3) {
+    background-color: orange;
+}
+
+.reg_form_bd ul li .agree {
+    margin-left: -160px;
+}
+
+.reg_form_bd ul li .agree input {
+    width: 16px;
+    height: 16px;
+}
+
+.reg_form_bd ul li .agree .agreement {
+    color: #1ba1e6;
+}
+
+.reg_form_bd ul li .submit input {
+    margin-top: 50px;
+    margin-left: -150px;
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 12px;
+    color: #fff;
+}
+
+.copyright {
+    margin-top: 24px;
+    text-align: center;
+}
+
+
+.link ul li {
+    display: inline-block;
+    margin-bottom: 18px;
+}
+
+.link ul li:nth-child(odd) {
+    font-size: 12px;
+    color: #666;
+}
+
+.link ul li:nth-child(even) {
+    margin: 0 17px;
+    width: 1px;
+    height: 12px;
+    margin-bottom: -2px;
+    background-color: #666;
+}
